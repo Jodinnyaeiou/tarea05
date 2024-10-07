@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/*contenedor Principal*/
+main{
+  width:900px;
+  height: 800px;
+  margin: 30px auto;
+  padding:20px;
+  border: #3ec25a 1px solid;
+}
+/*Cabecera principal*/
+.cabecera{
+  height: 75px;
+  padding:10px;
+}
+nav{ 
+  height: 40px;
+  }
+.menu{
+  margin-left: 60%; /*alineacion izquierda al medio del contenedor nav*/  
+  margin-top: 0.5em;
+  }
+.menu li{
+   display:inline; /*cambiar la presentacion de bloque por defecto a en linea*/   
+}
+/*propiedades del enlace (etiqueta a)*/
+.menu li a{  
+  font-size: 20px;
+  padding:5px;  
+  border-radius:5px 5px 0px 0px;
+  }
+.imagen{
+  width:100px;
+  float:left;
+  margin:5px 20px;
+}
+article{
+ height: 500px;
+  width: 49%;
+  float:left; 
+}
+aside{
+  height: 500px; 
+  margin-left:51%;
+  }
+footer{
+    height: 100px;
+    clear:both;
+  }
+footer div{
+    float: left;
+  }
+.redes{
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+  }
+p{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:hover{
+  background-color: black;
+  color: white;
+}
+#hh{
+  text-align: center;
+  background-color: orange;
+  color: white;
+}
+#cc{
+  text-align: center;
+  background-color: rgb(43, 130, 201);
+  color: white;
+}
+#jj{
+  text-align: center;
+  background-color:gold;
+  color: white;
+}
+#pp{
+  text-align: center;
+  background-color: rgb(97, 62, 161);
+  color: white;
+}
+.sobrerayado{
+  background-color: rgb(47, 158, 233);
+  color: white;
+}
+.colorr{
+  color:red
+}
+.nam{
+  background-color:black;
+  color:white
+}
+#piee{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+  height: 1px;
+  margin: 10px 0;
+  background-color: #3ec25a;
+}
+.mmm{
+  background-color: yellow;
+  color: black
+}
+.cabecera{
+  background-color: bisque;
+}
+.abajo{
+  background-color: bisque;
+}
+.todo{
+  background-color: white;
+}
+body{
+  background-color:blanchedalmond;
+}
